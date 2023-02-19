@@ -1,4 +1,4 @@
-package javabooks;
+package shieldtjava;
 
 public class PassOb {
     public static void main(String[] args) {

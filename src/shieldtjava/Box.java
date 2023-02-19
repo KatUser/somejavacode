@@ -1,4 +1,4 @@
-package javabooks;
+package shieldtjava;
 
 public class Box {
     double width;

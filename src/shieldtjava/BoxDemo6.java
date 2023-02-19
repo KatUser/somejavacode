@@ -1,4 +1,4 @@
-package javabooks;
+package shieldtjava;
 
 public class BoxDemo6 {
     public static void main(String[] args) {

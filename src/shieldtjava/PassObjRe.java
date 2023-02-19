@@ -1,4 +1,4 @@
-package javabooks;
+package shieldtjava;
 
 public class PassObjRe {
     public static void main(String[] args) {
