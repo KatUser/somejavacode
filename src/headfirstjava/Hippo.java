@@ -2,7 +2,7 @@ package headfirstjava;
 
 public class Hippo extends Animal {
     @Override
-    public String makeNoise() {
-        return "I am a hippo";
+    public void makeNoise() {
+        System.out.println("I am a hippo");
     }
 }

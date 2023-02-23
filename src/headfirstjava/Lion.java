@@ -1,8 +1,8 @@
 package headfirstjava;
 
-public class Lion extends Animal {
+public class Lion extends Feline {
     @Override
-    public String makeNoise() {
-        return "I am a lion";
+    public void makeNoise() {
+        System.out.println("I am a lion");
     }
 }
