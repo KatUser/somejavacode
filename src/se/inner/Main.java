@@ -6,5 +6,6 @@ public class Main {
         d.run();
         Dog d2 = new Dog("Полкан");
         d2.run();
+        System.out.println(Dog.Statistics.counter);
     }
 }
