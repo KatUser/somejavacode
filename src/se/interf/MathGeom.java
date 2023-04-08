@@ -1,5 +1,7 @@
 package se.interf;
 
 public interface MathGeom {
-    double getSquare();
+    default double getSquare() {
+        return 7;
+    }  /*since jdk 8, Где НЕ переопределён - будет использоваться реализация по умолчанию */
 }

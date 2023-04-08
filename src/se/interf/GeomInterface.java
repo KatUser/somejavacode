@@ -8,6 +8,10 @@ public interface GeomInterface { /*since jdk 8 - static methods are allowed in i
     double [] getCoords();
 
     static void showInterval() { /*статич метод д. иметь реализацию и не м.б. переопределен в дочерних классах*/
-        System.out.println(MAX_COORD + " " + MIN_COORD);
+        System.out.println(MAX_COORD + " and " + MIN_COORD); /* Вызывается из интерфейса*/
+    }
+
+    default double getSquare() {
+        return -5;
     }
 }
