@@ -1,7 +1,7 @@
 package collectionsjava;
 
 import java.util.ArrayList;
-import java.util.Objects;
+
 
 public class ArListMethods7 {
     public static void main(String[] args) {

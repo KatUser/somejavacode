@@ -1,6 +1,4 @@
 package collectionsjava;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class ArrListMethods8 {
