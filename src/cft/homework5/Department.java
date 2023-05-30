@@ -3,6 +3,10 @@ package cft.homework5;
 import java.util.*;
 
 public class Department {
+
+    /**
+     * Список факультетов
+     */
     public static Set<Department> departments = new HashSet<>();
 
     private String name;

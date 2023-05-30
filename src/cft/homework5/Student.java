@@ -3,8 +3,14 @@ package cft.homework5;
 import java.util.*;
 
 public class Student {
-    public static List<Student> allStudents = new ArrayList<>();
+    /**
+     * Список студентов
+     */
+    public static List<Student> allStudents = new LinkedList<>();
 
+    /**
+     * Список = студент + список его курсов, где он ошивается
+     */
     public static Map <String, List<String>> studentCourseMap = new LinkedHashMap<>();
 
     private int studentId;

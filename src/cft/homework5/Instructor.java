@@ -4,8 +4,14 @@ import java.util.*;
 
 public class Instructor {
 
+    /**
+     * Список преподов
+     */
     public static List<Instructor> instructors = new LinkedList<>();
 
+    /**
+     * Список - препод + список его факультеты, где оно числится
+     */
     public static Map<String, Set<String>> instructorsToDepMap = new LinkedHashMap<>();
 
     private String name;
