@@ -36,7 +36,7 @@ public class Student {
                 for (Instructor instructor : Instructor.instructors) {
                     if (instructor.getName().split(" ")[0].equals(firstInstructorName)) {
                         System.out.println("Студент по фамилии " + lastStudentName + " есть");
-                        System.out.println("Преподавать по имении " + firstInstructorName + " есть");
+                        Instructor.getInstructorInfo(firstInstructorName);
                     }
                 }
 
