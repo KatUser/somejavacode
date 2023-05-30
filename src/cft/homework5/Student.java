@@ -42,6 +42,12 @@ public class Student {
                 for (Instructor instructor : Instructor.instructors) {
                     if (instructor.getName().split(" ")[0].equals(firstInstructorName)) {
                         System.out.println("Студент по фамилии " + lastStudentName + " есть");
+                        System.out.println("Этот студент посещает курс/курсы : ");
+                        for (Map.Entry <String, List<String>> entry : studentCourseMap.entrySet()) {
+                            if (entry.getKey().equals(student.getName())) {
+                                System.out.println(entry.getValue());
+                            }
+                        }
                         Instructor.getInstructorInfo(firstInstructorName);
                     }
                 }
