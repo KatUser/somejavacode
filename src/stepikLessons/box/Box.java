@@ -1,9 +1,9 @@
-package stepikLessons;
+package stepikLessons.box;
 
 public class Box {
-    double length;
-    double width;
-    double height;
+    private double length;
+    private double width;
+    private double height;
 
     Box() {
         this(10);
@@ -23,6 +23,10 @@ public class Box {
         this(anotherBox.length,
                 anotherBox.width,
                 anotherBox.height);
+    }
+
+    Box copy() {
+        return new Box(this.length, this.width, this.length);
     }
 
     double getVolume() {
@@ -51,13 +55,15 @@ public class Box {
         }
     }
 
-    Box copy() {
-        return new Box(this.length, this.width, this.length);
-    }
-
     Box increase() {
         return new Box(this.length * 2,
                 this.width * 2,
                 this.height * 2);
+    }
+
+    public void showInfo() {
+        System.out.print(this.length
+                + " " + this.width
+                + " " + this.height);
     }
 }

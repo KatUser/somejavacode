@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-//        Box box1 = new Box();
+//        box box1 = new box();
 //        box1.setDimension(1, 1, 1);
 //        double volume = box1.height * box1.length * box1.width;
 //        System.out.println(volume);
@@ -51,11 +51,11 @@ public class Main {
 //                + " " + monster3.hand
 //                + " " + monster3.leg);
 
-//        Box current = new Box(10);
-//        Box another = new Box(20);
+//        box current = new box(10);
+//        box another = new box(20);
 //        current.compareBoxes(another);
 //
-//        Box newBox = new Box(current);
+//        box newBox = new box(current);
 //        newBox.printVolume();
 //        current.setDimension(20, 20, 20);
 //        current.copy().printVolume();
