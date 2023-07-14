@@ -1,4 +1,7 @@
-package stepikLessons.box;
+package test;
+
+import stepikLessons.box.Box;
+import stepikLessons.box.BoxChild;
 
 public class Main {
     public static void main(String[] args) {

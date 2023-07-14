@@ -5,21 +5,21 @@ public class Box {
     private double width;
     private double height;
 
-    Box() {
+    public Box() {
         this(10);
     };
 
-    Box(double length, double width, double height) {
+    public Box(double length, double width, double height) {
         this.length = length;
         this.width = width;
         this.height = height;
     }
 
-    Box(double size) {
+    public Box(double size) {
         this(size, size, size);
     }
 
-    Box(Box anotherBox) {
+    public Box(Box anotherBox) {
         this(anotherBox.length,
                 anotherBox.width,
                 anotherBox.height);
